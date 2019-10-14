@@ -1,0 +1,268 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% auto;
+    background-color: rgb(10, 10, 10);
+    margin: 0;
+}
+
+nav {
+    margin-right: 20px
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+nav li a {
+    padding: 2px 7px 2px 7px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+nav li a.active {
+    color: #ffc11a;
+    opacity: 0.9;
+    border-bottom: 2px solid #ffc11a;
+}
+
+nav li a:hover {
+    opacity: 1;
+    border-bottom: 2px solid;
+}
+
+h1 {
+    padding: 1% 2% 0% 2%;
+    color: #ffc11a;
+    font-size: 36px;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    text-align: center;
+}
+
+h2 {
+    font-style: oblique;
+    color: grey;
+    padding: 0% 2% 2% 2%;
+    font-size: 22px;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+    margin-block-end: 0em;
+    margin-block-start: 1em;
+}
+
+h4 {
+    margin: 0.25%;
+}
+
+li {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    margin-block-end: 0.5em;
+}
+
+li a {
+    color: white;
+}
+
+p {
+    color: white;
+    padding: 0 2% 2% 2%;
+    text-align: justify;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+}
+
+span {
+    color: #ffc11a;
+}
+
+table {
+    table-layout: fixed;
+    width: 96%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: #ffc11a;
+    table-layout: auto;
+    text-transform: uppercase;
+}
+
+th {
+    text-emphasis: bold;
+    text-align: center;
+    font-size: 140%;
+}
+
+tr:nth-child(even) {
+    background-color: #242424;
+    content: normal;
+}
+
+td {
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding: 1% 0%;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+input, textarea {
+    width: 95%;
+    resize: none;
+}
+
+footer {
+    color: grey;
+    background-color: rgb(10, 10, 10);
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    border-top: 2px solid #ffc21ac9;
+}
+
+footer:hover {
+    color: white;
+}
+
+.portfolio {
+    width: 700px;
+    background-color: rgba(10, 10, 10, 0.93);
+    backdrop-filter: blur(10px);
+    filter: blur(0px);
+    border-radius: 10px;
+    margin: 3.5% auto;
+    padding: 0.5%;
+}
+
+.portfolio-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.portfolio-img {
+    width: 23.3%;
+    padding: 0.5%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.portfolio-img:hover {
+    border: 3px solid #ffc11a;
+    padding: 0;
+}
+
+.portfolio-img.active {
+    border: 3px solid #ffc11a;
+    padding: 0;
+}
+
+.biog-fondo {
+    background-color: rgba(10, 10, 10, 0.93);
+    border-radius: 10px;
+    width: 1000px;
+    align-content: center;
+    margin: 3.5% auto;
+    padding: 0.5%;
+}
+
+.biog-foto {
+    padding: 0 2%;
+    width: 25%;
+    margin: 0 auto;
+    float: right;
+}
+
+.contact-content, .success-content {
+    text-align: center;
+    color: white;
+    width: 350px;
+    padding: 0.5%;
+    background-color: rgba(10, 10, 10, 0.93);
+    border-radius: 10px;
+    margin: 3.5% auto;
+}
+ 
+.captcha-text {
+    color: #ffc11a;
+    font-style: oblique;
+}
+
+.btn-enviar {
+    align-content: center;
+    margin: 5% auto;
+    padding: 2%;
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    text-transform: uppercase;
+    width: 96%;
+    border-radius: 5px;
+    background-color: #ffc11a;
+    border: none
+}
+
+.btn-enviar:hover {
+    color: white;
+    background-color: #ffcd43;
+}
+
+.button-social {
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    padding: 3.5%;
+    opacity: 0.85;
+}
+
+.button-social:hover {
+    opacity: 1;
+}
+
+.success-content {
+    margin: 5% auto;
+}
+
+.success-msg {
+font-size: 30px;
+text-align: center;
+border-bottom: 1px solid #ffc11a;
+padding: 2%;
+margin-block-end: 1em;
+}
+
+#captcha-number {
+    color: #ffc11a;
+    font-size: 30px;
+    text-decoration: line-through;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+#captcha-wrong {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    color: rgb(255, 74, 74)
+}
