@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mr. Andrelo Ilustraciones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="src/css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images\favicon.png" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="biog.html">Biografía</a></li>
+            <li><a class="active" href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class=contact-content>
+        <form id="formContacto" action="success.html">
+            <div>
+                <h1>FORMULARIO</h1>
+                <h3>Nombre y Apellido:</h3>
+                <input type="text" name="nombre" value="" required>
+                <h3>Número de Teléfono:</h3>
+                <input type="text" name="telefono" required>
+                <h3>Casilla de E-mail:</h3>
+                <input type="email" name="email" value="" required>
+                <h3>Mensaje:</h3>
+                <textarea name="mensaje" rows="6" value="" required></textarea>
+                <h3 class=captcha-text>Captcha:</h3>
+                <span id="captcha-number"></span>
+                <h3>Ingrese el captcha:</h3>
+                <input type="text" name="captcha" id="captchaInput" value="" required>
+                <div id="captcha-wrong"></div>
+                <button class="btn-enviar" type="submit">Enviar Mensaje</button>
+        </form>
+        <h1>INFORMACIÓN</h1>
+        <ul>
+            <li>TELÉFONO: (0249) 460-5579</li>
+            <li>E-MAIL: mr.andrelo60@gmail.com</li>
+            <li>FACEBOOK: Mr. Andrelo Ilustraciones</li>
+            <li>INSTAGRAM: SoyAndrelo</li>
+        </ul>
+        <li class="button-social"><a href="https://api.whatsapp.com/send?phone=5492494605579" target="_blank"><img
+                    src="src\css\images\button-social-t.png"></a></li>
+        <li class="button-social"><a href="mailto:mr.andrelo60@gmail.com" target="_blank"><img
+                    src="src\css\images\button-social-m.png"></a></li>
+        <li class="button-social"><a href="https://www.facebook.com/MrAndreloIlustraciones/" target="_blank"><img
+                    src="src\css\images\button-social-f.png"></a></li>
+        <li class="button-social"><a href="https://www.instagram.com/soyandrelo/" target="_blank"><img
+                    src="src\css\images\button-social-i.png"></a></li>
+    </div>
+    </div>
+    <footer>
+        <h4>&copy;2019.
+        </h4>
+    </footer>
+    <script src="src/js/validacion.js"></script>
+</body>
+
+</html>
